@@ -11,3 +11,5 @@ libxfixes3
 libxrandr2
 libpango-1.0-0
 libcairo2
+fonts-noto-cjk
+fonts-wqy-zenhei

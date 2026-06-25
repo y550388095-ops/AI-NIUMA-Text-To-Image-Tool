@@ -133,7 +133,7 @@ def render_style_default(data):
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
         <style>
-            body { font-family: 'Noto Sans SC', sans-serif; background-color: #f3f4f6; padding: 2rem; display: flex; flex-direction: column; align-items: center; gap: 2rem; }
+            body { font-family: 'Noto Sans SC', 'WenQuanYi Zen Hei', 'Noto Sans CJK SC', sans-serif; background-color: #f3f4f6; padding: 2rem; display: flex; flex-direction: column; align-items: center; gap: 2rem; }
             .card { width: 800px; height: 1422px; background-color: white; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); overflow: hidden; position: relative; display: flex; flex-direction: column; }
             .cover-bg { background: linear-gradient(135deg, #710000 0%, #4a0000 100%); color: white; }
             .header-line { border-bottom: 1px solid #e5e7eb; }
@@ -242,7 +242,7 @@ def render_style_apple(data):
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdn.tailwindcss.com"></script>
         <style>
-            body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro SC", "Helvetica Neue", Helvetica, Arial, sans-serif; background-color: #000; padding: 2rem; display: flex; flex-direction: column; align-items: center; gap: 2rem; }
+            body { font-family: "WenQuanYi Zen Hei", "Noto Sans CJK SC", -apple-system, BlinkMacSystemFont, sans-serif; background-color: #000; padding: 2rem; display: flex; flex-direction: column; align-items: center; gap: 2rem; }
             .card { width: 800px; height: 1422px; background-color: #fbfbfd; overflow: hidden; position: relative; display: flex; flex-direction: column; }
         </style>
     </head>
@@ -316,7 +316,7 @@ def render_style_guofeng(data):
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700;900&display=swap" rel="stylesheet">
         <style>
-            body { font-family: 'Noto Serif SC', serif; background-color: #e5e5e5; padding: 2rem; display: flex; flex-direction: column; align-items: center; gap: 2rem; }
+            body { font-family: 'Noto Serif SC', 'WenQuanYi Zen Hei', 'Noto Serif CJK SC', serif; background-color: #e5e5e5; padding: 2rem; display: flex; flex-direction: column; align-items: center; gap: 2rem; }
             .card { width: 800px; height: 1422px; background-color: #f7f4ed; overflow: hidden; position: relative; display: flex; flex-direction: column; border: 1px solid #d5c8b5; }
             .red-stamp { border: 2px solid #8c222c; color: #8c222c; padding: 0.5rem 1rem; font-weight: bold; }
         </style>
@@ -395,7 +395,7 @@ def render_style_fresh(data):
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdn.tailwindcss.com"></script>
         <style>
-            body { font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; background-color: #f3f4f6; padding: 2rem; display: flex; flex-direction: column; align-items: center; gap: 2rem; }
+            body { font-family: 'WenQuanYi Zen Hei', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif; background-color: #f3f4f6; padding: 2rem; display: flex; flex-direction: column; align-items: center; gap: 2rem; }
             .card { width: 800px; height: 1422px; background: linear-gradient(135deg, #fff5f5 0%, #f0f9ff 100%); overflow: hidden; position: relative; display: flex; flex-direction: column; }
             .glass-panel { background: rgba(255, 255, 255, 0.65); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.8); border-radius: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
         </style>
