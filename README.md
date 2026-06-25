@@ -91,4 +91,11 @@ streamlit run app.py
 
 ---
 
+
+## 📄 License
+
+本项目基于 [MIT License](LICENSE) 开源。你可以自由使用、复制、修改、分发和商用本项目代码，但需要保留版权声明和许可证文本。
+
+> © 2026 AI NIUMA
+
 Made with ❤️ by AI NIUMA
